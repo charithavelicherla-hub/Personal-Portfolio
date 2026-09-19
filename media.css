@@ -1,0 +1,48 @@
+@media (max-width: 1280px) {
+  #about-me {
+    flex-wrap: wrap;
+  }
+  .bio-img img {
+    width: 100vw;
+  }
+  form {
+    width: 100%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .ham {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  header {
+    padding-left: 20px;
+  }
+  .bio-title h1 {
+    font-size: 40px;
+    margin: 0px auto;
+  }
+  .bio-title img {
+    display: none;
+  }
+  .bio-details p {
+    padding: 20px 40px 20px 40px;
+  }
+  #skills h1 {
+    text-align: center;
+  }
+  #projects h1 {
+    text-align: center;
+  }
+  .pro {
+    margin: 20px 0px;
+  }
+  #projects {
+    margin: 20px 10px;
+  }
+  .rec-container p {
+    height: auto;
+  }
+}
